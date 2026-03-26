@@ -49,7 +49,7 @@ dependencies = [
   "requests",
   "pydantic",
   "transformers[torch]==4.25.1",
-  "protobuf<=3.20.2",  # same version they use in transformers[sentencepiece]
+  "protobuf<=6.33.6",  # same version they use in transformers[sentencepiece]
   "pandas",
   "rank_bm25",
   "scikit-learn>=1.0.0", # TF-IDF, SklearnQueryClassifier and metrics
